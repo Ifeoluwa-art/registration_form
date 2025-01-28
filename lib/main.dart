@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Registration Form",
-      home: Registration Screen(),
+      home: RegistrationScreen(),
     );
     
     
