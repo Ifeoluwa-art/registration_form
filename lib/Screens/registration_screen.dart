@@ -1,5 +1,4 @@
 
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 class RegistrationScreen extends StatefulWidget{
@@ -63,10 +62,10 @@ return Scaffold(
         padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
           color:isRegistered? Colors.green : Colors.blue,
-           borderRadius: BorderRadius.circular(10)
+           borderRadius: BorderRadius.circular(10),
         ),
         child: Text(isRegistered ?
-        "registration successful" :
+        "Registration Successful" :
         "Register me",
         style: const TextStyle(
           color: Colors.white,
